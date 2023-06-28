@@ -1,13 +1,19 @@
 .cabeçalho{
-    background-color:rgb(5, 20, 240);
-color: rgb(0, 0, 0);
+    background-color:rgb(240, 21, 5);
+color: rgb(2, 0, 0);
 display: flex;
 justify-content: space-around;
 align-items: center;
 padding: 24px;
 } 
-  
- 
+.cabeçalho-lista-item{
+ display: inline-block;
+margin: 0 16px;
+font-size: 24px;
+}  
+.cabeçalho-imagem{
+ width: 5%;   
+} 
 
     
 
