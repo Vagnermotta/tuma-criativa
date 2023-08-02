@@ -1,9 +1,10 @@
-*
-
-
+*{
+    margin: 0;
+    padding: 0;
+}
 .cabeçalho{
-    background-color:rgb(240, 21, 5);
-color: rgb(2, 0, 0);
+    background-color:rgb(16, 6, 100);
+color: rgb(196, 20, 20);
 display: flex;
 justify-content: space-around;
 align-items: center;
@@ -12,29 +13,21 @@ padding: 24px;
 .cabeçalho-lista-item{
  display: inline-block;
 margin: 0 16px;
-font-size: 24px;
+font-size: 30px;
 }  
-.cabeçalho-imagem{
- width: 5%;   
-}
-.cabeçalho {background-color: white;
-color: white;
-display: flex;
-justify-content: space-around;
-align-items: center;padding: 24px0;
-}
 .cabeçalho-imagem{
     width: 15%;
 }
-.cabeçalho-imagem{
+.escola-imagem{
     width: 25%;
 }
 .escola{
-    background-image:linear-gradient(#424E61,#16CFF8);
-    color: white;
+    background-image:linear-gradient(rgb(16, 6, 100),#0e0bda);
+    color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
-    padding: 24px0; 
+    align-items: center;
+    padding: 24px 0; 
 }
 
 
